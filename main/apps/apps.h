@@ -19,4 +19,5 @@
 #include "app_timer/app_timer.h"
 #include "app_keyboard/app_keyboard.h"
 #include "app_texteditor/app_texteditor.h"
+#include "app_print/app_print.h"
 #include "app_hello/app_hello.h"
