@@ -1,10 +1,10 @@
 /**
  * @file app_print.cpp
  * @author crt0dotS
- * @brief 
+ * @brief
  * @version 0.1
  * @date 2024-04-07
- * 
+ *
  * @copyright Copyright (c) 2024
  */
 
@@ -45,9 +45,8 @@ void AppPrint::onResume()
     _canvas->setFont(FONT_REPL);
     _canvas->setTextSize(FONT_SIZE_REPL);
 
-    // Avoid input panel 
+    // Avoid input panel
     _canvas->setCursor(0, 0);
-    
     //run function once
     _print_demo();
 }
