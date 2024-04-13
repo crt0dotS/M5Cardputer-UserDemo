@@ -29,7 +29,10 @@ namespace MOONCAKE
                     HAL::Hal* hal = nullptr;
                 };
                 Data_t _data;
+                void _update_input();
                 void _print_demo();
+                void _print_init();
+                void _print_deinit();
 
             public:
                 void onCreate() override;
