@@ -1,6 +1,8 @@
 # M5Cardputer-UserDemo
 M5Cardputer user demo for hardware evaluation.
 
+> **Note: If you are using Cardputer ADV, please use the [CardputerADV branch](https://github.com/m5stack/M5Cardputer-UserDemo/tree/CardputerADV).**
+
 #### Tool Chains
 
 [ESP-IDF v4.4.6](https://docs.espressif.com/projects/esp-idf/en/v4.4.6/esp32/index.html)
