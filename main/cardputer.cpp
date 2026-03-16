@@ -110,16 +110,9 @@ extern "C" void app_main(void)
 
     // Install apps 
     mooncake.installApp(new APPS::AppWifiScan_Packer);
-    mooncake.installApp(new APPS::AppRecord_Packer);
-    mooncake.installApp(new APPS::AppChat_Packer);
-    mooncake.installApp(new APPS::AppIR_Packer);
-    mooncake.installApp(new APPS::AppREPL_Packer);
     mooncake.installApp(new APPS::AppSetWiFi_Packer);
-    mooncake.installApp(new APPS::AppTimer_Packer);
     mooncake.installApp(new APPS::AppKeyboard_Packer);
-    mooncake.installApp(new APPS::AppTextEditor_Packer);
     mooncake.installApp(new APPS::AppPrint_Packer);
-    mooncake.installApp(new APPS::AppHello_Packer);
 
     // Create launcher 
     mooncake.createApp(launcher);
